@@ -1,0 +1,19 @@
+{
+  "verbose": true,
+  "execMap": {
+    "js": "node",
+    "mjs": "node --experimental-modules",
+    "ts": "ts-node"
+  },
+  "watch": [
+    "src/tests/server.ts"
+  ],
+  "ignore": [
+    ".git"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "true"
+  },
+  "ext": "ts js json"
+}

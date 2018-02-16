@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": false,
+    "lib": [
+      "es5",
+      "es6",
+      "es2015",
+      "es7",
+      "es2016",
+      "es2017",
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "webworker",
+      "scripthost",
+      "es2015.core",
+      "es2015.collection",
+      "es2015.generator",
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.proxy",
+      "es2015.reflect",
+      "es2015.symbol",
+      "es2015.symbol.wellknown",
+      "es2016.array.include",
+      "es2017.object",
+      "es2017.sharedmemory",
+      "esnext.asynciterable"
+    ],
+    "typeRoots": [
+      "typings",
+      "node_modules/*",
+      "src/*"
+    ],
+    "types": [ "node" ],
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": true,
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "removeComments": true,
+    "traceResolution": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": [
+      ".",
+      "src",
+      "typings"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "*": [
+        "*"
+      ]
+    },
+    "strictFunctionTypes": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "pretty": true,
+    "preserveConstEnums": true,
+    "stripInternal": true,
+    "newLine": "lf",
+    "noFallthroughCasesInSwitch": true,
+    "diagnostics": true,
+    "isolatedModules": false //?
+  },
+  "exclude": [ "node_modules" ]
+}
